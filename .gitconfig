@@ -1,0 +1,11 @@
+[user]
+	name = Adriano Cruz
+	email = 89139045+xdrxxnx@users.noreply.github.com
+[core]
+	editor = code
+[credential "https://github.com"]
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = !/usr/bin/gh auth git-credential
+[init]
+	defaultBranch = main
