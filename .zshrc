@@ -39,7 +39,6 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 # END OF LINES ADDED BY zsh-newuser-install #
 
 # LINES ADDED BY adriano #
-
 # source stuff
 ## rust
 source "$HOME/.cargo/env"
@@ -53,5 +52,6 @@ alias ela="exa -la"
 alias gs="git status"
 alias ga="git add"
 alias gcm="git commit -m"
-
+alias gps="git push"
+alias gpl="git pull"
 # END OF LINES ADDED BY adriano #
