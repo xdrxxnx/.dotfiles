@@ -48,6 +48,7 @@ source "$HOME/.asdf/asdf.sh"
 source "$HOME/.zsh/spaceship/spaceship.zsh"
 
 # aliases
+alias ea="exa -a"
 alias ela="exa -la"
 alias gs="git status"
 alias ga="git add"
