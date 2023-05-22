@@ -50,7 +50,8 @@ source "$HOME/.zsh/spaceship/spaceship.zsh"
 
 # aliases
 alias ela="exa -la"
+alias gs="git status"
 alias ga="git add"
-alias gcm"git commit -m"
+alias gcm="git commit -m"
 
 # END OF LINES ADDED BY adriano #
