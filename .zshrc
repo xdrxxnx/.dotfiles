@@ -1,6 +1,10 @@
 # LINES ADDED BY zsh-newuser-install #
-# Set up the prompt
+# Set up the autocomplete
+autoload -Uz compinit
+compinit
+_comp_options+=(globdots)
 
+# Set up the prompt
 autoload -Uz promptinit
 promptinit
 prompt adam1
@@ -56,3 +60,7 @@ alias gcm="git commit -m"
 alias gps="git push"
 alias gpl="git pull"
 # END OF LINES ADDED BY adriano #
+
+# LINES ADDED BY alacritty #
+fpath+=${ZDOTDIR:-~}/.zsh_functions
+# END OF LINES ADDED BY alacritty #
