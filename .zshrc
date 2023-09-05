@@ -1,7 +1,3 @@
-# LINES ADDED BY adriano #
-fpath=(${ASDF_DIR}/completions $fpath)
-# END OF LINES ADDED BY adriano #
-
 # LINES ADDED BY zsh-newuser-install #
 # Set up the autocomplete
 autoload -Uz compinit
@@ -58,13 +54,11 @@ source "$HOME/.zsh/spaceship/spaceship.zsh"
 # aliases
 alias ea="exa -a"
 alias ela="exa -la"
-alias gcl="git clone"
 alias gs="git status"
 alias ga="git add"
 alias gcm="git commit -m"
 alias gps="git push"
 alias gpl="git pull"
-alias ssh-prefeitura="ssh pmbr2@162.241.61.194"
 # END OF LINES ADDED BY adriano #
 
 # LINES ADDED BY alacritty #
