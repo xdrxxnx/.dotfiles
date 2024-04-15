@@ -59,8 +59,11 @@ alias ga="git add"
 alias gcm="git commit -m"
 alias gps="git push"
 alias gpl="git pull"
+alias please="sudo"
 # END OF LINES ADDED BY adriano #
 
 # LINES ADDED BY alacritty #
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 # END OF LINES ADDED BY alacritty #
+
+printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh"}}\x9c'
