@@ -60,6 +60,7 @@ alias gcm="git commit -m"
 alias gps="git push"
 alias gpl="git pull"
 alias please="sudo"
+alias cloudflare="echo '[*] é warp-cli...'"
 # END OF LINES ADDED BY adriano #
 
 # LINES ADDED BY alacritty #
