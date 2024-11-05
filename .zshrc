@@ -12,7 +12,7 @@ prompt adam1
 setopt histignorealldups sharehistory
 
 # Use emacs keybindings even if our EDITOR is set to vi
-bindkey -e
+bindkey -v
 
 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=1000
@@ -42,29 +42,6 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 # END OF LINES ADDED BY zsh-newuser-install #
 
-# LINES ADDED BY adriano #
-# source stuff
-## rust
-source "$HOME/.cargo/env"
-## asdf
-source "$HOME/.asdf/asdf.sh"
-## spaceship
-source "$HOME/.zsh/spaceship/spaceship.zsh"
-
-# aliases
-alias ea="exa -a"
-alias ela="exa -la"
-alias gs="git status"
-alias ga="git add"
-alias gcm="git commit -m"
-alias gps="git push"
-alias gpl="git pull"
-alias please="sudo"
-alias cloudflare="echo '[*] é warp-cli...'"
-# END OF LINES ADDED BY adriano #
-
-# LINES ADDED BY alacritty #
-fpath+=${ZDOTDIR:-~}/.zsh_functions
-# END OF LINES ADDED BY alacritty #
-
-printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh"}}\x9c'
+# LINES ADDED BY didico_sexo #
+source $HOME/.dotfiles/defaults/shell
+# END OF LINES ADDED BY didico_sexo #

@@ -1,0 +1,9 @@
+# Custom configs
+source $HOME/.dotfiles/defaults/rc
+
+# Editor used by CLI
+export EDITOR="nvim"
+export SUDO_EDITOR="$EDITOR"
+
+# PATH
+export PATH="$HOME/.local/bin:$PATH"
