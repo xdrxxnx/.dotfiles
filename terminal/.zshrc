@@ -43,5 +43,5 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 # END OF LINES ADDED BY zsh-newuser-install #
 
 # LINES ADDED BY didico_sexo #
-source $HOME/.dotfiles/defaults/shell
+source $HOME/.dotfiles/terminal/defaults/shell
 # END OF LINES ADDED BY didico_sexo #

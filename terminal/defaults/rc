@@ -1,0 +1,9 @@
+# default files
+source $HOME/.dotfiles/terminal/defaults/aliases
+source $HOME/.dotfiles/terminal/defaults/prompt
+source $HOME/.dotfiles/terminal/defaults/init
+
+
+source $HOME/.cargo/env
+source $HOME/.asdf/asdf.sh
+source $HOME/.zsh/spaceship/spaceship.zsh
