@@ -1,7 +1,9 @@
+# zoxide init
 if command -v zoxide &> /dev/null; then
   eval "$(zoxide init zsh)"
 fi
 
+# fzf zsh keybinds
 if command -v fzf &> /dev/null; then
   source /usr/share/doc/fzf/examples/key-bindings.zsh
 fi
